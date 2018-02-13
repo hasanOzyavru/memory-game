@@ -1,0 +1,63 @@
+<!-- Project made in collaboration
+with Udacity Google Scholarship fellow student Sara Bento de Castro-->
+<!-- This is an initial release and will be upgraded soon-->
+<html>
+
+<head>
+    
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Memory Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="fontawesome.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+
+</head>
+
+<body>
+    <header class="topsec">
+        <h1 class="flicker-in-1">Memory Game</h1>
+        <h3><i class="fa fa-eye" id="olho" aria-hidden="true"></i>Memorize the position of each card in 5 seconds<i class="fa fa-eye" id="olho2" aria-hidden="true"></i></h3>
+        <h3>Afterwards a card will be shown, can you remember in which position was it?</h3>
+    </header>
+
+    <main>
+		<div class="containercards" id="containercards">
+			<div class='container2'>
+				<div class='facefinal'>
+					<div class='eyefinal'></div>
+					<div class='eyefinal2'></div>
+					<div class='centerfinal'></div>
+					<div class='nosefinal'></div>
+				</div>
+			</div>
+			
+			<div class='container2'>
+				<div class='facefinal'>
+					<div class='eyefinal'></div>
+					<div class='eyefinal2'></div>
+					<div class='centerfinal'></div>
+					<div class='nosefinal'></div>
+				</div>
+			</div>  
+        </div>
+      
+        <div class="buttons" id="buttons"></div>
+        <div class="cntr"><span></span></div>
+        <div class="replay" id="replay"></div>
+		
+		<div class="score"> </div>
+
+        <div class="start"><button type="button" class="heartbeat" id="startGame">Start Game</button></div>
+    </main>
+
+    <script type="text/javascript" src="jscode.js"></script>
+</body>
+
+</html>
